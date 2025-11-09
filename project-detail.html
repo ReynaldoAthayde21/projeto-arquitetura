@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detalhes do Projeto - Portfólio de Arquitetura</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark  sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand fw-bold" href="index.html">
+                <img src="../public/LOGO/LOGO PNG/CACOLORIDA.png" id="home" alt="">
+                <i class=""></i> <span style="color: #B8860B;">Carolina Athayde</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="portfolio.html">Portfólio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">Sobre</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contato</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Project Header -->
+    <section class="project-header">
+        <img id="projectImage" src="https://via.placeholder.com/1200x400?text=Projeto" alt="Projeto" class="img-fluid w-100">
+    </section>
+
+    <!-- Project Details -->
+    <section class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8">
+                    <h1 id="projectTitle" class="display-4 fw-bold mb-3">Título do Projeto</h1>
+                    <p id="projectDescription" class="lead text-muted mb-4">Descrição do projeto aqui</p>
+
+                    <!-- Project Gallery -->
+                    <div class="mb-5">
+                        <h3 class="fw-bold mb-4">Galeria do Projeto</h3>
+                        <div class="row g-3" id="projectGallery">
+                            <div class="col-md-6">
+                                <img src="https://via.placeholder.com/500x400?text=Foto+1" class="img-fluid rounded" alt="Foto 1">
+                            </div>
+                            <div class="col-md-6">
+                                <img src="https://via.placeholder.com/500x400?text=Foto+2" class="img-fluid rounded" alt="Foto 2">
+                            </div>
+                            <div class="col-md-6">
+                                <img src="https://via.placeholder.com/500x400?text=Foto+3" class="img-fluid rounded" alt="Foto 3">
+                            </div>
+                            <div class="col-md-6">
+                                <img src="https://via.placeholder.com/500x400?text=Foto+4" class="img-fluid rounded" alt="Foto 4">
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project Details -->
+                    <div class="mb-5">
+                        <h3 class="fw-bold mb-4">Sobre o Projeto</h3>
+                        <p id="projectFullDescription">
+                            Este é um projeto arquitetônico inovador que combina design moderno com funcionalidade. 
+                            O espaço foi cuidadosamente planejado para maximizar a eficiência e criar um ambiente 
+                            agradável para seus usuários.
+                        </p>
+                    </div>
+
+                    <!-- Project Specifications -->
+                    <div class="mb-5">
+                        <h3 class="fw-bold mb-4">Especificações</h3>
+                        <div class="row">
+                            <div class="col-md-6 mb-3">
+                                <div class="spec-item">
+                                    <strong>Área Total:</strong>
+                                    <p id="projectArea">500 m²</p>
+                                </div>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <div class="spec-item">
+                                    <strong>Ano de Conclusão:</strong>
+                                    <p id="projectYear">2024</p>
+                                </div>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <div class="spec-item">
+                                    <strong>Localização:</strong>
+                                    <p id="projectLocation">São Paulo, SP</p>
+                                </div>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <div class="spec-item">
+                                    <strong>Tipo:</strong>
+                                    <p id="projectType">Residencial</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Sidebar -->
+                <div class="col-lg-4">
+                    <div class="card sticky-top" style="top: 80px;">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold mb-4">Informações do Projeto</h5>
+                            
+                            <div class="mb-4">
+                                <h6 class="text-muted mb-2">Categoria</h6>
+                                <p id="sidebarCategory" class="mb-0">Residencial</p>
+                            </div>
+
+                            <div class="mb-4">
+                                <h6 class="text-muted mb-2">Status</h6>
+                                <p id="sidebarStatus" class="mb-0">Concluído</p>
+                            </div>
+
+                            <div class="mb-4">
+                                <h6 class="text-muted mb-2">Arquiteto</h6>
+                                <p id="sidebarArchitect" class="mb-0">Carolina Athayde</p>
+                            </div>
+
+                            <hr>
+
+                            <div class="d-grid gap-2">
+                                <a href="contact.html" class="btn btn-primary">Solicitar Orçamento</a>
+                                <a href="portfolio.html" class="btn btn-outline-secondary">Voltar ao Portfólio</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Related Projects -->
+    <section class="py-5 bg-light">
+        <div class="container">
+            <h3 class="fw-bold mb-4">Projetos Relacionados</h3>
+            <div class="row g-4" id="relatedProjects">
+                <!-- Will be populated by JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section py-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-8">
+                    <h2 class="display-5 fw-bold text-white mb-3">Interessado em um projeto similar?</h2>
+                    <p class="lead text-white">Vamos conversar sobre suas ideias e transformá-las em realidade</p>
+                </div>
+                <div class="col-lg-4 text-lg-end">
+                    <a href="contact.html" class="btn btn-light btn-lg">Iniciar Conversa</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-5">
+        <div class="container">
+            <div class="row mb-4">
+                <div class="col-md-4 mb-4 mb-md-0">
+                    <h5 class="fw-bold mb-3">Carolina Athayde</h5>
+                    <p class="text-muted">Transformando espaços em experiências únicas através da arquitetura e design.</p>
+                </div>
+                <div class="col-md-4 mb-4 mb-md-0">
+                    <h5 class="fw-bold mb-3">Links Rápidos</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="index.html" class="text-muted text-decoration-none">Home</a></li>
+                        <li><a href="portfolio.html" class="text-muted text-decoration-none">Portfólio</a></li>
+                        <li><a href="about.html" class="text-muted text-decoration-none">Sobre</a></li>
+                        <li><a href="contact.html" class="text-muted text-decoration-none">Contato</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h5 class="fw-bold mb-3">Redes Sociais</h5>
+                    <div class="social-links">
+                        <a href="https://instagram.com" target="_blank" class="text-white me-3"><i class="fab fa-instagram fa-lg"></i></a>
+                        <a href="https://wa.me/5511999999999" target="_blank" class="text-white me-3"><i class="fab fa-whatsapp fa-lg"></i></a>
+                        <a href="https://tiktok.com" target="_blank" class="text-white"><i class="fab fa-tiktok fa-lg"></i></a>
+                    </div>
+                </div>
+            </div>
+            <hr class="bg-secondary">
+            <div class="row">
+                <div class="col-md-6">
+                    <p class="text-muted mb-0">&copy; 2025 Carolina Athayde. Todos os direitos reservados.</p>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <p class="text-muted mb-0">Desenvolvido por <a href="https://www.linkedin.com/in/reynaldoathayde/?originalSubdomain=br" target="_blank">Reynaldo Athayde</a></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
